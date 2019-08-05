@@ -1776,3 +1776,258 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.05-22.03.18:193][  8]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltData148E1201428A4AE426029889AF0EE44D.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
 [2019.08.05-22.03.30:180][815]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.08.05-22.03.40:896][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.13.17:196][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2019.08.05-22.13.17:366][647]LogTexture: Display: Building textures: Texture2D_108 (BGRA8, 16X16)
+[2019.08.05-22.13.17:369][647]LogTexture: Display: Building textures: Texture2D_99 (BGRA8, 16X16)
+[2019.08.05-22.13.17:370][647]LogTexture: Display: Building textures: Texture2D_100 (BGRA8, 16X16)
+[2019.08.05-22.13.17:379][647]LogTexture: Display: Building textures: Texture2D_109 (BGRA8, 16X16)
+[2019.08.05-22.13.17:383][647]LogTexture: Display: Building textures: Texture2D_110 (BGRA8, 16X16)
+[2019.08.05-22.13.17:384][647]LogTexture: Display: Building textures: Texture2D_112 (BGRA8, 16X16)
+[2019.08.05-22.13.17:385][647]LogTexture: Display: Building textures: Texture2D_34 (BGRA8, 16X16)
+[2019.08.05-22.13.17:386][647]LogTexture: Display: Building textures: Texture2D_98 (BGRA8, 16X16)
+[2019.08.05-22.13.17:392][647]LogTexture: Display: Building textures: Texture2D_35 (BGRA8, 16X16)
+[2019.08.05-22.13.17:395][647]LogTexture: Display: Building textures: Texture2D_103 (BGRA8, 16X16)
+[2019.08.05-22.13.17:396][647]LogTexture: Display: Building textures: Texture2D_105 (BGRA8, 16X16)
+[2019.08.05-22.13.17:398][647]LogTexture: Display: Building textures: Texture2D_36 (BGRA8, 16X16)
+[2019.08.05-22.13.17:398][647]LogTexture: Display: Building textures: Texture2D_37 (BGRA8, 16X16)
+[2019.08.05-22.13.17:399][647]LogTexture: Display: Building textures: Texture2D_38 (BGRA8, 16X16)
+[2019.08.05-22.13.17:400][647]LogTexture: Display: Building textures: Texture2D_96 (BGRA8, 16X16)
+[2019.08.05-22.13.17:401][647]LogTexture: Display: Building textures: Texture2D_97 (BGRA8, 16X16)
+[2019.08.05-22.13.17:401][647]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 16X16)
+[2019.08.05-22.13.17:403][647]LogTexture: Display: Building textures: Texture2D_40 (BGRA8, 16X16)
+[2019.08.05-22.13.17:404][647]LogTexture: Display: Building textures: Texture2D_107 (BGRA8, 16X16)
+[2019.08.05-22.13.17:405][647]LogTexture: Display: Building textures: Texture2D_41 (BGRA8, 16X16)
+[2019.08.05-22.13.17:406][647]LogTexture: Display: Building textures: Texture2D_113 (BGRA8, 16X16)
+[2019.08.05-22.13.17:406][647]LogTexture: Display: Building textures: Texture2D_42 (BGRA8, 16X16)
+[2019.08.05-22.13.17:408][647]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 16X16)
+[2019.08.05-22.13.17:410][647]LogTexture: Display: Building textures: Texture2D_43 (BGRA8, 16X16)
+[2019.08.05-22.13.17:411][647]LogTexture: Display: Building textures: Texture2D_142 (BGRA8, 16X16)
+[2019.08.05-22.13.17:412][647]LogTexture: Display: Building textures: Texture2D_44 (BGRA8, 16X16)
+[2019.08.05-22.13.17:413][647]LogTexture: Display: Building textures: Texture2D_114 (BGRA8, 16X16)
+[2019.08.05-22.13.17:414][647]LogTexture: Display: Building textures: Texture2D_45 (BGRA8, 16X16)
+[2019.08.05-22.13.17:416][647]LogTexture: Display: Building textures: Texture2D_94 (BGRA8, 16X16)
+[2019.08.05-22.13.17:416][647]LogTexture: Display: Building textures: Texture2D_46 (BGRA8, 16X16)
+[2019.08.05-22.13.17:417][647]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 16X16)
+[2019.08.05-22.13.17:418][647]LogTexture: Display: Building textures: Texture2D_143 (BGRA8, 16X16)
+[2019.08.05-22.13.17:419][647]LogTexture: Display: Building textures: Texture2D_145 (BGRA8, 16X16)
+[2019.08.05-22.13.17:420][647]LogTexture: Display: Building textures: Texture2D_48 (BGRA8, 16X16)
+[2019.08.05-22.13.17:423][647]LogTexture: Display: Building textures: Texture2D_147 (BGRA8, 16X16)
+[2019.08.05-22.13.17:426][647]LogTexture: Display: Building textures: Texture2D_115 (BGRA8, 16X16)
+[2019.08.05-22.13.17:427][647]LogTexture: Display: Building textures: Texture2D_49 (BGRA8, 16X16)
+[2019.08.05-22.13.17:428][647]LogTexture: Display: Building textures: Texture2D_116 (BGRA8, 16X16)
+[2019.08.05-22.13.17:429][647]LogTexture: Display: Building textures: Texture2D_50 (BGRA8, 16X16)
+[2019.08.05-22.13.17:430][647]LogTexture: Display: Building textures: Texture2D_93 (BGRA8, 16X16)
+[2019.08.05-22.13.17:431][647]LogTexture: Display: Building textures: Texture2D_141 (BGRA8, 16X16)
+[2019.08.05-22.13.17:431][647]LogTexture: Display: Building textures: Texture2D_51 (BGRA8, 16X16)
+[2019.08.05-22.13.17:432][647]LogTexture: Display: Building textures: Texture2D_52 (BGRA8, 16X16)
+[2019.08.05-22.13.17:433][647]LogTexture: Display: Building textures: Texture2D_146 (BGRA8, 16X16)
+[2019.08.05-22.13.17:434][647]LogTexture: Display: Building textures: Texture2D_53 (BGRA8, 16X16)
+[2019.08.05-22.13.17:434][647]LogTexture: Display: Building textures: Texture2D_54 (BGRA8, 16X16)
+[2019.08.05-22.13.17:435][647]LogTexture: Display: Building textures: Texture2D_91 (BGRA8, 16X16)
+[2019.08.05-22.13.17:437][647]LogTexture: Display: Building textures: Texture2D_92 (BGRA8, 16X16)
+[2019.08.05-22.13.17:438][647]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 16X16)
+[2019.08.05-22.13.17:440][647]LogTexture: Display: Building textures: Texture2D_144 (BGRA8, 16X16)
+[2019.08.05-22.13.17:441][647]LogTexture: Display: Building textures: Texture2D_56 (BGRA8, 16X16)
+[2019.08.05-22.13.17:442][647]LogTexture: Display: Building textures: Texture2D_57 (BGRA8, 16X16)
+[2019.08.05-22.13.17:442][647]LogTexture: Display: Building textures: Texture2D_117 (BGRA8, 16X16)
+[2019.08.05-22.13.17:446][647]LogTexture: Display: Building textures: Texture2D_58 (BGRA8, 16X16)
+[2019.08.05-22.13.17:448][647]LogTexture: Display: Building textures: Texture2D_59 (BGRA8, 16X16)
+[2019.08.05-22.13.17:449][647]LogTexture: Display: Building textures: Texture2D_90 (BGRA8, 16X16)
+[2019.08.05-22.13.17:450][647]LogTexture: Display: Building textures: Texture2D_60 (BGRA8, 16X16)
+[2019.08.05-22.13.17:450][647]LogTexture: Display: Building textures: Texture2D_148 (BGRA8, 16X16)
+[2019.08.05-22.13.17:452][647]LogTexture: Display: Building textures: Texture2D_61 (BGRA8, 16X16)
+[2019.08.05-22.13.17:452][647]LogTexture: Display: Building textures: Texture2D_118 (BGRA8, 16X16)
+[2019.08.05-22.13.17:454][647]LogTexture: Display: Building textures: Texture2D_62 (BGRA8, 16X16)
+[2019.08.05-22.13.17:456][647]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 16X16)
+[2019.08.05-22.13.17:457][647]LogTexture: Display: Building textures: Texture2D_153 (BGRA8, 16X16)
+[2019.08.05-22.13.17:462][647]LogTexture: Display: Building textures: Texture2D_149 (BGRA8, 16X16)
+[2019.08.05-22.13.17:463][647]LogTexture: Display: Building textures: Texture2D_64 (BGRA8, 16X16)
+[2019.08.05-22.13.17:464][647]LogTexture: Display: Building textures: Texture2D_65 (BGRA8, 16X16)
+[2019.08.05-22.13.17:465][647]LogTexture: Display: Building textures: Texture2D_119 (BGRA8, 16X16)
+[2019.08.05-22.13.17:465][647]LogTexture: Display: Building textures: Texture2D_66 (BGRA8, 16X16)
+[2019.08.05-22.13.17:466][647]LogTexture: Display: Building textures: Texture2D_137 (BGRA8, 16X16)
+[2019.08.05-22.13.17:468][647]LogTexture: Display: Building textures: Texture2D_67 (BGRA8, 16X16)
+[2019.08.05-22.13.17:470][647]LogTexture: Display: Building textures: Texture2D_151 (BGRA8, 16X16)
+[2019.08.05-22.13.17:473][647]LogTexture: Display: Building textures: Texture2D_68 (BGRA8, 16X16)
+[2019.08.05-22.13.17:474][647]LogTexture: Display: Building textures: Texture2D_150 (BGRA8, 16X16)
+[2019.08.05-22.13.17:476][647]LogTexture: Display: Building textures: Texture2D_69 (BGRA8, 16X16)
+[2019.08.05-22.13.17:479][647]LogTexture: Display: Building textures: Texture2D_120 (BGRA8, 16X16)
+[2019.08.05-22.13.17:482][647]LogTexture: Display: Building textures: Texture2D_70 (BGRA8, 16X16)
+[2019.08.05-22.13.17:482][647]LogTexture: Display: Building textures: Texture2D_135 (BGRA8, 16X16)
+[2019.08.05-22.13.17:483][647]LogTexture: Display: Building textures: Texture2D_136 (BGRA8, 16X16)
+[2019.08.05-22.13.17:484][647]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 16X16)
+[2019.08.05-22.13.17:484][647]LogTexture: Display: Building textures: Texture2D_152 (BGRA8, 16X16)
+[2019.08.05-22.13.17:485][647]LogTexture: Display: Building textures: Texture2D_72 (BGRA8, 16X16)
+[2019.08.05-22.13.17:486][647]LogTexture: Display: Building textures: Texture2D_73 (BGRA8, 16X16)
+[2019.08.05-22.13.17:487][647]LogTexture: Display: Building textures: Texture2D_121 (BGRA8, 16X16)
+[2019.08.05-22.13.17:490][647]LogTexture: Display: Building textures: Texture2D_74 (BGRA8, 16X16)
+[2019.08.05-22.13.17:491][647]LogTexture: Display: Building textures: Texture2D_75 (BGRA8, 16X16)
+[2019.08.05-22.13.17:493][647]LogTexture: Display: Building textures: Texture2D_134 (BGRA8, 16X16)
+[2019.08.05-22.13.17:494][647]LogTexture: Display: Building textures: Texture2D_133 (BGRA8, 16X16)
+[2019.08.05-22.13.17:496][647]LogTexture: Display: Building textures: Texture2D_76 (BGRA8, 16X16)
+[2019.08.05-22.13.17:497][647]LogTexture: Display: Building textures: Texture2D_128 (BGRA8, 16X16)
+[2019.08.05-22.13.17:498][647]LogTexture: Display: Building textures: Texture2D_125 (BGRA8, 16X16)
+[2019.08.05-22.13.17:499][647]LogTexture: Display: Building textures: Texture2D_123 (BGRA8, 16X16)
+[2019.08.05-22.13.17:500][647]LogTexture: Display: Building textures: Texture2D_122 (BGRA8, 16X16)
+[2019.08.05-22.13.17:501][647]LogTexture: Display: Building textures: Texture2D_77 (BGRA8, 16X16)
+[2019.08.05-22.13.17:503][647]LogTexture: Display: Building textures: Texture2D_78 (BGRA8, 16X16)
+[2019.08.05-22.13.17:504][647]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 16X16)
+[2019.08.05-22.13.17:507][647]LogTexture: Display: Building textures: Texture2D_131 (BGRA8, 16X16)
+[2019.08.05-22.13.17:508][647]LogTexture: Display: Building textures: Texture2D_80 (BGRA8, 16X16)
+[2019.08.05-22.13.17:508][647]LogTexture: Display: Building textures: Texture2D_126 (BGRA8, 16X16)
+[2019.08.05-22.13.17:509][647]LogTexture: Display: Building textures: Texture2D_81 (BGRA8, 16X16)
+[2019.08.05-22.13.18:377][647]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_Auto35C7B45FE4D13937CB73B0C86FCF17BB6.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Maps/BattleGround_Auto3.umap'
+[2019.08.05-22.13.18:384][647]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BattleGround' took 1.231
+[2019.08.05-22.13.18:384][647]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.231
+[2019.08.05-22.22.50:536][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.24.58:418][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Barrel.fbx)
+[2019.08.05-22.24.58:449][722]LogFbx: Loading FBX Scene from C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Barrel.fbx
+[2019.08.05-22.24.58:462][722]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.05-22.25.50:270][722]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.05-22.25.50:716][722]LogMaterial: Display: Missing cached shader map for material 01_-_Default, compiling. 
+[2019.08.05-22.25.50:755][722]LogStaticMesh: Building static mesh tank_fbx_Barrel...
+[2019.08.05-22.25.50:778][722]LogStaticMesh: Built static mesh [0.02s] /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2019.08.05-22.25.50:793][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Body.fbx)
+[2019.08.05-22.25.50:804][722]LogFbx: Loading FBX Scene from C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Body.fbx
+[2019.08.05-22.25.50:829][722]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.05-22.25.50:971][722]LogStaticMesh: Building static mesh tank_fbx_Body...
+[2019.08.05-22.25.51:402][722]LogStaticMesh: Built static mesh [0.43s] /Game/Tank/tank_fbx_Body.tank_fbx_Body
+[2019.08.05-22.25.51:536][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Track.fbx)
+[2019.08.05-22.25.51:546][722]LogFbx: Loading FBX Scene from C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Track.fbx
+[2019.08.05-22.25.51:558][722]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.05-22.25.51:616][722]LogStaticMesh: Building static mesh tank_fbx_Track...
+[2019.08.05-22.25.51:823][722]LogStaticMesh: Built static mesh [0.21s] /Game/Tank/tank_fbx_Track.tank_fbx_Track
+[2019.08.05-22.25.51:866][722]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Turret.fbx)
+[2019.08.05-22.25.51:877][722]LogFbx: Loading FBX Scene from C:\Users\Pollo Wagan\Downloads\Improved-Tank-Model (1)\with_UCX_custom_collision\tank_fbx_Turret.fbx
+[2019.08.05-22.25.51:889][722]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.05-22.25.51:910][722]LogStaticMesh: Building static mesh tank_fbx_Turret...
+[2019.08.05-22.25.51:935][722]LogStaticMesh: Built static mesh [0.03s] /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2019.08.05-22.25.55:047][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2019.08.05-22.25.55:047][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/BattleGround' took 0.025
+[2019.08.05-22.25.55:049][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/tank_fbx_Barrel] ([1] browsable assets)...
+[2019.08.05-22.25.55:059][ 51]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel]
+[2019.08.05-22.25.55:060][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/tank_fbx_Barrel]
+[2019.08.05-22.25.55:079][ 51]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Barrel_Auto4581CE4A94A912C4DD5CD258EE44780C9.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Tank/tank_fbx_Barrel_Auto4.uasset'
+[2019.08.05-22.25.55:080][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/01_-_Default] ([1] browsable assets)...
+[2019.08.05-22.25.55:090][ 51]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Tank/01_-_Default.01_-_Default]
+[2019.08.05-22.25.55:091][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/01_-_Default]
+[2019.08.05-22.25.55:104][ 51]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/01_-_Default_Auto405B31DFE4D756F2038AFE088122D4B8B.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Tank/01_-_Default_Auto4.uasset'
+[2019.08.05-22.25.55:105][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/tank_fbx_Body] ([1] browsable assets)...
+[2019.08.05-22.25.55:116][ 51]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Tank/tank_fbx_Body.tank_fbx_Body]
+[2019.08.05-22.25.55:116][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/tank_fbx_Body]
+[2019.08.05-22.25.55:163][ 51]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Body_Auto42B9B6B614A30C3435DEAFCAF4E6EC811.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Tank/tank_fbx_Body_Auto4.uasset'
+[2019.08.05-22.25.55:164][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/tank_fbx_Track] ([1] browsable assets)...
+[2019.08.05-22.25.55:176][ 51]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Tank/tank_fbx_Track.tank_fbx_Track]
+[2019.08.05-22.25.55:176][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/tank_fbx_Track]
+[2019.08.05-22.25.55:203][ 51]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Track_Auto44653E54E4D9616AF8969D3AD4B41674D.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Tank/tank_fbx_Track_Auto4.uasset'
+[2019.08.05-22.25.55:204][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tank/tank_fbx_Turret] ([1] browsable assets)...
+[2019.08.05-22.25.55:216][ 51]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Tank/tank_fbx_Turret.tank_fbx_Turret]
+[2019.08.05-22.25.55:216][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tank/tank_fbx_Turret]
+[2019.08.05-22.25.55:235][ 51]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Turret_Auto4D32161954E1681ADE45829B839D3CA9A.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Autosaves/Game/Tank/tank_fbx_Turret_Auto4.uasset'
+[2019.08.05-22.25.55:236][ 51]LogFileHelpers: Auto-saving content packages took 0.188
+[2019.08.05-22.26.08:162][570]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
+[2019.08.05-22.26.08:517][571]LogRenderer: Reallocating scene render targets to support 1248x960 Format 10 NumSamples 1 (Frame:1).
+[2019.08.05-22.26.21:226][686]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.26.23:813][996]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.26.26:546][316]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.27.40:221][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.27.47:446][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.08.05-22.27.48:107][697]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGroundA4B59F3B4C1A4157FBFC0495B62F198A.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
+[2019.08.05-22.27.48:163][697]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltData8FEBB84B4CCE26653D686BBFA6EEA0AA.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
+[2019.08.05-22.28.41:785][160]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.08.05-22.28.42:409][160]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround0C86DEFB4AC670ECE0E943B1FD50AD40.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
+[2019.08.05-22.28.42:449][160]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltDataAC2365E94400E93FD83132B701D42307.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
+[2019.08.05-22.28.43:337][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.08.05-22.28.44:470][261]LogSlate: Window 'Save Content' being destroyed
+[2019.08.05-22.28.44:492][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Dirt_LayerInfoD60A58834AAC1A5D383F2FB5256ED48F.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/Map_Material/Dirt_LayerInfo.uasset'
+[2019.08.05-22.28.44:507][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Grass_LayerInfoE60C2BA54D2DE8E4049E5EAB8A0334E5.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/Map_Material/Grass_LayerInfo.uasset'
+[2019.08.05-22.28.44:523][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/01_-_Default500A1D6A437A527948C2C5B3789E75C9.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/01_-_Default.uasset'
+[2019.08.05-22.28.44:543][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_BarrelE3D5CBF043D51D47A759D4B12254D9D4.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Barrel.uasset'
+[2019.08.05-22.28.44:593][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_BodyC6F4C48B470588012A8FE1A876637799.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Body.uasset'
+[2019.08.05-22.28.44:622][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Track26E2D2FD48A615A2F33A5287E173AF2E.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Track.uasset'
+[2019.08.05-22.28.44:642][261]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Turret6BF318C541C6253BAF9D40A3E2D36A06.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Turret.uasset'
+[2019.08.05-22.28.57:008][350]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.08.05-22.30.04:412][398]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2019.08.05-22.30.04:778][398]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0025 seconds. Added 121 classes and 0 folders.
+[2019.08.05-22.30.07:329][578]LogSlate: Window 'Tank_BP' being destroyed
+[2019.08.05-22.31.33:240][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.31.34:701][436]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Body.tank_fbx_Body
+[2019.08.05-22.32.09:498][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.33.04:558][454]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.33.33:439][209]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Body418BE5D64BC2FAC0D70773B47E1973EE.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Body.uasset'
+[2019.08.05-22.34.28:588][519]LogEditorTransaction: Undo Detach Component
+[2019.08.05-22.34.39:920][337]LogEditorTransaction: Undo Modify Component(s)
+[2019.08.05-22.34.41:206][476]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.34.49:584][428]BlueprintLog: New page: Compile Tank_BP
+[2019.08.05-22.34.49:746][428]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2019.08.05-22.34.50:073][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.05-22.34.50:093][459]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BPFC70FF764AE19A1189FAF8A03116ACC6.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.05-22.35.15:234][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.37.14:296][467]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.37.16:489][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.38.01:426][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.38.53:139][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.38.55:490][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.39.04:183][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.40.58:490][109]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.41.01:251][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.41.10:860][567]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Body315D6A11487661973A3FB092FB6618C0.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Body.uasset'
+[2019.08.05-22.41.15:773][126]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.41.19:515][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.41.22:556][924]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.41.29:436][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.41.56:195][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.42.00:395][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.42.03:032][697]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.42.06:011][ 47]LogEditorTransaction: Undo Attach Component
+[2019.08.05-22.42.06:331][ 71]LogEditorTransaction: Undo Detach Component
+[2019.08.05-22.42.07:068][147]LogEditorTransaction: Undo Attach Component
+[2019.08.05-22.42.09:787][456]LogEditorTransaction: Undo Edit Static Mesh
+[2019.08.05-22.42.20:286][659]LogEditorTransaction: Undo Edit Static Mesh
+[2019.08.05-22.42.20:899][713]LogEditorTransaction: Undo Attach Component
+[2019.08.05-22.42.21:341][753]LogEditorTransaction: Undo Add Component
+[2019.08.05-22.42.48:294][905]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.43.02:880][574]Cmd: TRANSACTION UNDO
+[2019.08.05-22.43.02:881][574]LogEditorTransaction: Undo Replace component used material
+[2019.08.05-22.43.03:465][629]Cmd: TRANSACTION UNDO
+[2019.08.05-22.43.03:465][629]LogEditorTransaction: Undo Replace component used material
+[2019.08.05-22.43.03:902][669]Cmd: TRANSACTION UNDO
+[2019.08.05-22.43.03:902][669]LogEditorTransaction: Undo Replace component used material
+[2019.08.05-22.43.04:451][723]Cmd: TRANSACTION UNDO
+[2019.08.05-22.43.04:451][723]LogEditorTransaction: Undo Attach Component
+[2019.08.05-22.43.06:415][943]LogEditorTransaction: Undo Edit Static Mesh
+[2019.08.05-22.43.15:607][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.43.33:037][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.43.37:715][599]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.43.40:102][880]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.05-22.43.49:909][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.44.14:927][997]LogEditorTransaction: Undo Detach Component
+[2019.08.05-22.44.15:506][ 50]LogEditorTransaction: Undo Rename Component Variable
+[2019.08.05-22.44.17:189][238]LogEditorTransaction: Undo Attach Component
+[2019.08.05-22.44.52:885][437]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.44.52:944][444]BlueprintLog: New page: Compile Tank_BP
+[2019.08.05-22.44.53:096][444]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2019.08.05-22.44.53:541][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.05-22.44.53:568][489]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BP2860F400499EDECE597239824DD4D88D.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.05-22.45.01:899][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.45.01:983][487]BlueprintLog: New page: Compile Tank_BP
+[2019.08.05-22.45.02:119][487]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.08.05-22.45.02:499][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.05-22.45.02:519][524]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BPBEC793E64E68C575B1101EAF85860AD2.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.05-22.45.06:447][977]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.45.58:098][ 88]BlueprintLog: New page: Compile Tank_BP
+[2019.08.05-22.45.58:238][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2019.08.05-22.45.58:610][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.05-22.45.58:636][124]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BP318D17AD48D84B4B03F43D94C288B499.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.05-22.46.20:618][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.46.39:975][ 55]LogEditorTransaction: Undo Modify Component(s)
+[2019.08.05-22.46.49:735][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-22.46.49:793][205]BlueprintLog: New page: Compile Tank_BP
+[2019.08.05-22.46.49:936][205]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2019.08.05-22.46.50:223][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.05-22.46.50:245][235]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BPC06D779546C3F87822D6C89C6DA1B504.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.05-23.06.48:554][ 81]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.05-23.06.56:636][977]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2019.08.05-23.06.57:328][977]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround9FA59C87497E92449AC82FAF092EC951.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
+[2019.08.05-23.06.57:381][977]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltData24A030EA44B7F9AEB57B38891E6F2574.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
+[2019.08.05-23.06.57:998][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
