@@ -1,2 +1,2 @@
-C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\Definitions.BattleTank_04.h
-c:\users\pollo wagan\documents\casual project unreal\battle_tank\battletank_04\source\battletank_04\BattleTank_04.h
+C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\Definitions.BattleTank_04.h
+c:\users\pollo wagan\documents\casual project unreal\battle_tank\battle_tank\battletank_04\source\battletank_04\BattleTank_04.h

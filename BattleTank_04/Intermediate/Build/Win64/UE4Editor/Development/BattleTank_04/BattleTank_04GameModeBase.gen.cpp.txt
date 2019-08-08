@@ -1,9 +1,9 @@
-C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\Definitions.BattleTank_04.h
+C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\Definitions.BattleTank_04.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\BattleTank_04\Source\BattleTank_04/BattleTank_04GameModeBase.h
+C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04/BattleTank_04GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
 C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-c:\users\pollo wagan\documents\casual project unreal\battle_tank\battletank_04\intermediate\build\win64\ue4editor\inc\battletank_04\BattleTank_04GameModeBase.generated.h
+c:\users\pollo wagan\documents\casual project unreal\battle_tank\battle_tank\battletank_04\intermediate\build\win64\ue4editor\inc\battletank_04\BattleTank_04GameModeBase.generated.h

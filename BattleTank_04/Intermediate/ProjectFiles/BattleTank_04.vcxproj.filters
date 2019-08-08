@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\BattleTank_04.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8E90D10E-DF48-424F-BACC-06415B0411E5}</UniqueIdentifier>
+      <UniqueIdentifier>{372F464F-424D-40D3-B383-FF81F6579DC1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank_04.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\BattleTank_04Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{94CDAF53-FD93-4CD0-BE92-2B62AA596AB4}</UniqueIdentifier>
+      <UniqueIdentifier>{401EFFEF-9FCB-45E5-B12D-E9FBDA2E643E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +24,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\BattleTank_04">
-      <UniqueIdentifier>{99EE5E7C-0672-4DB6-BA61-B2BE60F855A7}</UniqueIdentifier>
+      <UniqueIdentifier>{7616D8F4-2F64-4F69-9D55-AAB3E153E22D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\BattleTank_04\BattleTank_04.Build.cs">
       <Filter>Source\BattleTank_04</Filter>
@@ -41,5 +45,21 @@
     <ClInclude Include="..\..\Source\BattleTank_04\BattleTank_04GameModeBase.h">
       <Filter>Source\BattleTank_04</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BattleTank_04\TankPC_Cpp.cpp">
+      <Filter>Source\BattleTank_04</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BattleTank_04\TankPC_Cpp.h">
+      <Filter>Source\BattleTank_04</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\BattleTank_04\Tank.h">
+      <Filter>Source\BattleTank_04</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\BattleTank_04\Tank.cpp">
+      <Filter>Source\BattleTank_04</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
