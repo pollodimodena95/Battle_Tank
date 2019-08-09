@@ -16,7 +16,7 @@ class BATTLETANK_04_API ATankPC_Cpp : public APlayerController
 	GENERATED_BODY()
 
 public: 
-	ATank* GetControlledTank() const;
+	ATank* GetControlledTank() const; // getcontrolledtank = un pawn in specifico imparentato con tank
 
 	void BeginPlay() override;
 	
