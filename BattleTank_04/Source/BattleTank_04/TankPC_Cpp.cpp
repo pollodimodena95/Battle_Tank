@@ -3,6 +3,11 @@
 
 #include "TankPC_Cpp.h"
 
+ATankPC_Cpp::ATankPC_Cpp()
+{
+	PrimaryActorTick.bCanEverTick = true;
+}
+
 void ATankPC_Cpp::BeginPlay()
 {
 	Super::BeginPlay();
@@ -18,6 +23,15 @@ void ATankPC_Cpp::BeginPlay()
 	}
 
 	
+}
+
+void ATankPC_Cpp::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	{
+		UE_LOG(LogTemp, Warning, TEXT("tick Working"))
+	}
+
 }
 
 ATank* ATankPC_Cpp::GetControlledTank() const
