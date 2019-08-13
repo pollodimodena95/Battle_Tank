@@ -29,6 +29,9 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+	void AimTowardsCrossHair(); //posiziona la canna del cannone dove stai mirando così da sparare dove stai mirando 
+
+	bool GetSightRayHitLocation(FVector& HitLocation) const;
 
 	
 };

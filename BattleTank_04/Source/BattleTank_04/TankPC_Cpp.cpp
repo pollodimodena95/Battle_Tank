@@ -29,7 +29,7 @@ void ATankPC_Cpp::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	{
-		UE_LOG(LogTemp, Warning, TEXT("tick Working"))
+		AimTowardsCrossHair();
 	}
 
 }
@@ -37,4 +37,27 @@ void ATankPC_Cpp::Tick(float DeltaTime)
 ATank* ATankPC_Cpp::GetControlledTank() const
 {
 	return Cast<ATank>(GetPawn());
+}
+
+void ATankPC_Cpp::AimTowardsCrossHair()
+{
+
+
+	
+	if (!GetControlledTank()) {return;}
+
+	FVector HitLocation; //OutParameter
+	if (GetSightRayHitLocation(HitLocation))
+	{
+		UE_LOG(LogTemp, Warning, TEXT("HitLocation : %s "), *(HitLocation.ToString()))
+			//(getworldlocation) prendi la posizione nel mondo se linetrace punta alla landscape tramite il crosshair
+			//indica al controlledtank di mirare in questa posizione
+	}
+}
+
+bool ATankPC_Cpp::GetSightRayHitLocation(FVector& HitLocation) const
+
+{
+	HitLocation = FVector(1.0);
+	return true;
 }
