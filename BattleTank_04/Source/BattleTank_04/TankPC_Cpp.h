@@ -22,16 +22,24 @@ private:
 
 
 	void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
+	
 	
 
 public: 
 	ATank* GetControlledTank() const; // getcontrolledtank = un pawn in specifico imparentato con tank
 
-	virtual void Tick(float DeltaTime) override;
-
 	void AimTowardsCrossHair(); //posiziona la canna del cannone dove stai mirando così da sparare dove stai mirando 
 
 	bool GetSightRayHitLocation(FVector& HitLocation) const;
 
-	
+		UPROPERTY(EditAnywhere)
+		float CrossHairXLocation = 0.5;
+
+		UPROPERTY(EditAnywhere)
+		float CrossHairYLocation = 0.33333;
+
+		bool GetLookDirection(FVector2D ScreenLocation, FVector &LookDirection) const;
 };
