@@ -2,6 +2,7 @@
 
 
 #include "TankPC_Cpp.h"
+#include "Engine/World.h"
 
 ATankPC_Cpp::ATankPC_Cpp()
 {
@@ -58,14 +59,17 @@ bool ATankPC_Cpp::GetSightRayHitLocation(FVector& HitLocation) const
 {
 	//Find Crosshair position
 	// -de project the screen position of the crosshair to a world direction
-	//Line Trace along that look direction
+
 	int32 ViewPortSizeX, ViewPortSizeY;
 	GetViewportSize(ViewPortSizeX, ViewPortSizeY);
 	auto ScreenLocation = FVector2D(ViewPortSizeX * CrossHairXLocation, ViewPortSizeY * CrossHairYLocation);
 	FVector LookDirection;
 	if (GetLookDirection(ScreenLocation, LookDirection))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("LookDirection %s"), *LookDirection.ToString())
+		//Line Trace along that look direction
+		GetLookVectorHitLocation(LookDirection, HitLocation);
+		UE_LOG(LogTemp, Warning, TEXT("HitLocation:  %s"), *HitLocation.ToString())
+
 	}
 	return true;
 }
@@ -80,4 +84,18 @@ bool ATankPC_Cpp::GetLookDirection(FVector2D ScreenLocation, FVector &LookDirect
 		CamerWorldLocation, 
 		LookDirection
 	);
+}
+
+bool ATankPC_Cpp::GetLookVectorHitLocation(FVector LookDirection, FVector &HitLocation) const
+{
+	FHitResult HitResult;
+	FVector Start = PlayerCameraManager->GetCameraLocation();
+	FVector End = Start + (LookDirection * LineTraceRange);
+	FCollisionQueryParams TraceParams;
+	if (GetWorld()->LineTraceSingleByChannel( HitResult, Start, End, ECC_Visibility, TraceParams))
+	{
+		HitLocation = HitResult.Location;
+		return true;
+	}
+		return false;
 }
