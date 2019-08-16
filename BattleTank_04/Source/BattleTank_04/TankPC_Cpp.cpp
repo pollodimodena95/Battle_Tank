@@ -48,9 +48,7 @@ void ATankPC_Cpp::AimTowardsCrossHair()
 	FVector HitLocation; //OutParameter
 	if (GetSightRayHitLocation(HitLocation))
 	{
-		//UE_LOG(LogTemp, Warning, TEXT("Look Direction : %s "), *(HitLocation.ToString()))
-			//(getworldlocation) prendi la posizione nel mondo se linetrace punta alla landscape tramite il crosshair
-			//indica al controlledtank di mirare in questa posizione
+		GetControlledTank()->AimAt(HitLocation);
 	}
 }
 
@@ -68,7 +66,7 @@ bool ATankPC_Cpp::GetSightRayHitLocation(FVector& HitLocation) const
 	{
 		//Line Trace along that look direction
 		GetLookVectorHitLocation(LookDirection, HitLocation);
-		UE_LOG(LogTemp, Warning, TEXT("HitLocation:  %s"), *HitLocation.ToString())
+
 
 	}
 	return true;

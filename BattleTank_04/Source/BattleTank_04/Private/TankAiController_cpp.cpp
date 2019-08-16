@@ -12,6 +12,15 @@ void ATankAiController_cpp::BeginPlay()
 	}
 };
 
+void ATankAiController_cpp::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	{
+
+		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
+	}
+}
+
 ATank* ATankAiController_cpp::GetControlledTank() const 
 {
 	return Cast<ATank>(GetPawn()); //riporta il dato getpawn che appartiene a ATank
