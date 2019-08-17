@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/PlayerController.h"
 #include "Tank.h"
+#include "TankAimingComponent.h"
 #include "TankPC_Cpp.generated.h" // deve essere l'ultimo a essere incluso
 
 /**

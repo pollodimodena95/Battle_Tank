@@ -378,8 +378,10 @@
     <ClCompile Include="..\..\Source\BattleTank_04\BattleTank_04GameModeBase.cpp" />
     <ClInclude Include="..\..\Source\BattleTank_04\BattleTank_04GameModeBase.h" />
     <ClCompile Include="..\..\Source\BattleTank_04\Private\TankAiController_cpp.cpp" />
+    <ClCompile Include="..\..\Source\BattleTank_04\Private\TankAimingComponent.cpp" />
     <ClCompile Include="..\..\Source\BattleTank_04\Tank.cpp" />
     <ClInclude Include="..\..\Source\BattleTank_04\Public\TankAiController_cpp.h" />
+    <ClInclude Include="..\..\Source\BattleTank_04\Public\TankAimingComponent.h" />
     <ClInclude Include="..\..\Source\BattleTank_04\Tank.h" />
     <ClCompile Include="..\..\Source\BattleTank_04\TankPC_Cpp.cpp" />
     <ClInclude Include="..\..\Source\BattleTank_04\TankPC_Cpp.h" />

@@ -74,9 +74,15 @@
     <ClInclude Include="..\..\Source\BattleTank_04\Public\TankAiController_cpp.h">
       <Filter>Source\BattleTank_04\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\BattleTank_04\Public\TankAimingComponent.h">
+      <Filter>Source\BattleTank_04\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\BattleTank_04\Private\TankAiController_cpp.cpp">
+      <Filter>Source\BattleTank_04\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BattleTank_04\Private\TankAimingComponent.cpp">
       <Filter>Source\BattleTank_04\Private</Filter>
     </ClCompile>
   </ItemGroup>
