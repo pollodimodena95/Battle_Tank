@@ -18,7 +18,6 @@ public:
 
 protected:
 	// Called when the game starts or when spawned
-	UTankAimingComponent* TankAimingComponent = nullptr;
 
 private:	
 	// Called every frame
@@ -29,8 +28,15 @@ private:
 
 	virtual void BeginPlay() override;
 
+	UStaticMeshComponent* Barrel = nullptr;
+
 public:
 
 	void AimAt(FVector HitLocation);
+
+	UTankAimingComponent* TankAimingComponent = nullptr;
+
+	UFUNCTION(BlueprintCallable, Category = Setup)
+		void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
 
 };
