@@ -13830,3 +13830,74 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.08.20-01.31.31:313][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.08.20-01.31.31:328][175]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
 [2019.08.20-01.31.31:350][177]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.08.20-01.32.38:067][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.20-01.58.43:503][720]Candidate modules for hot reload:
+[2019.08.20-01.58.43:503][720]  BattleTank_04
+[2019.08.20-01.58.43:503][720]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,3279 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
+[2019.08.20-01.58.43:505][720]Warning: Starting HotReload took  0.0s.
+[2019.08.20-01.58.54:211][816]CompilerResultsLog: New page: Compilation - 20/ago/2019 05:58:54
+[2019.08.20-01.58.54:212][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
+[2019.08.20-01.58.54:213][816]CompilerResultsLog: Creating makefile for BattleTank_04Editor (ini files are newer than makefile)
+[2019.08.20-01.58.54:213][816]CompilerResultsLog: Parsing headers for BattleTank_04Editor
+[2019.08.20-01.58.54:214][816]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.20-01.58.54:215][816]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,2421525 seconds
+[2019.08.20-01.58.54:215][816]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.20-01.58.54:216][816]CompilerResultsLog: Building 11 actions with 8 processes...
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [1/11] Tank.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [2/11] TankAimingComponent.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(65): warning C4456: declaration of 'AimDirection' hides previous local declaration
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(51): note: see declaration of 'AimDirection'
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [3/11] TankAimingComponent.gen.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [4/11] TankPC_Cpp.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [5/11] TankPC_Cpp.gen.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [6/11] Tank.gen.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [7/11] TankAiController_cpp.cpp
+[2019.08.20-01.58.54:216][816]CompilerResultsLog:   [8/11] TankAiController_cpp.gen.cpp
+[2019.08.20-01.58.54:217][816]CompilerResultsLog:   [9/11] UE4Editor-BattleTank_04-3279.lib
+[2019.08.20-01.58.54:217][816]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3279.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3279.exp
+[2019.08.20-01.58.54:217][816]CompilerResultsLog:   [10/11] UE4Editor-BattleTank_04-3279.dll
+[2019.08.20-01.58.54:217][816]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3279.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3279.suppressed.exp
+[2019.08.20-01.58.54:217][816]CompilerResultsLog:   [11/11] BattleTank_04Editor.target
+[2019.08.20-01.58.54:218][816]CompilerResultsLog: Total time in Parallel executor: 3,21 seconds
+[2019.08.20-01.58.54:218][816]CompilerResultsLog: Total execution time: 10,40 seconds
+[2019.08.20-01.58.54:218][816]LogMainFrame: MainFrame: Module compiling took 10.717 seconds
+[2019.08.20-01.58.54:247][816]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2019.08.20-01.58.54:248][816]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
+[2019.08.20-01.58.54:278][816]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
+[2019.08.20-01.58.54:278][816]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2019.08.20-01.58.54:283][816]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.08.20-01.58.54:351][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.08.20-01.58.54:351][816]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.20-01.58.54:359][816]LogContentBrowser: Native class hierarchy populated in 0.0075 seconds. Added 2739 classes and 664 folders.
+[2019.08.20-01.58.54:366][816]Display: HotReload took 10.9s.
+[2019.08.20-02.05.12:415][ 59]Candidate modules for hot reload:
+[2019.08.20-02.05.12:415][ 59]  BattleTank_04
+[2019.08.20-02.05.12:415][ 59]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,3303 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
+[2019.08.20-02.05.12:417][ 59]Warning: Starting HotReload took  0.0s.
+[2019.08.20-02.05.20:675][142]CompilerResultsLog: New page: Compilation - 20/ago/2019 06:05:20
+[2019.08.20-02.05.20:675][142]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
+[2019.08.20-02.05.20:676][142]CompilerResultsLog: Parsing headers for BattleTank_04Editor
+[2019.08.20-02.05.20:676][142]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.20-02.05.20:676][142]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,1181892 seconds
+[2019.08.20-02.05.20:676][142]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.20-02.05.20:676][142]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.20-02.05.20:676][142]CompilerResultsLog:   [1/4] TankAimingComponent.cpp
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(65): warning C4456: declaration of 'AimDirection' hides previous local declaration
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(51): note: see declaration of 'AimDirection'
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:   [2/4] UE4Editor-BattleTank_04-3303.lib
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3303.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3303.exp
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:   [3/4] UE4Editor-BattleTank_04-3303.dll
+[2019.08.20-02.05.20:677][142]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3303.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-3303.suppressed.exp
+[2019.08.20-02.05.20:678][142]CompilerResultsLog:   [4/4] BattleTank_04Editor.target
+[2019.08.20-02.05.20:678][142]CompilerResultsLog: Total time in Parallel executor: 1,82 seconds
+[2019.08.20-02.05.20:678][142]CompilerResultsLog: Total execution time: 7,99 seconds
+[2019.08.20-02.05.20:678][142]LogMainFrame: MainFrame: Module compiling took 8.267 seconds
+[2019.08.20-02.05.20:748][142]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2019.08.20-02.05.20:749][142]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
+[2019.08.20-02.05.20:782][142]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
+[2019.08.20-02.05.20:782][142]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0004 seconds. Added 6 classes and 3 folders.
+[2019.08.20-02.05.20:787][142]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.08.20-02.05.20:882][142]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2019.08.20-02.05.20:882][142]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.20-02.05.20:891][142]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2739 classes and 664 folders.
+[2019.08.20-02.05.20:897][142]Display: HotReload took  8.5s.

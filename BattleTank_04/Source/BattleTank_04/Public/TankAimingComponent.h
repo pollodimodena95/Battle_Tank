@@ -31,7 +31,11 @@ public:
 
 	//bool SuggestProjectileVelocity();
 
+	//TODO set turret reference
+
 private:
 
 	UStaticMeshComponent* Barrel = nullptr;
+
+	void MoveBarrelTowards(FVector AimDirection);
 };
