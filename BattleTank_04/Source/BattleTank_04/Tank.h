@@ -7,6 +7,7 @@
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h" // da lasciare per ultimo
 
+class UTankBarrel;
 UCLASS()
 class BATTLETANK_04_API ATank : public APawn
 {
@@ -28,7 +29,7 @@ private:
 
 	virtual void BeginPlay() override;
 
-	UStaticMeshComponent* Barrel = nullptr;
+	UTankBarrel* Barrel = nullptr;
 
 public:
 
@@ -37,7 +38,7 @@ public:
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
-		void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
+		void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 	UPROPERTY(EditAnyWhere, Category = Firing)
 	float LaunchSpeed = 100000; // trovare portata 
