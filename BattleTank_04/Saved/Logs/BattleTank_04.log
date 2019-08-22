@@ -1,4 +1,4 @@
-﻿Log file open, 08/21/19 14:13:08
+﻿Log file open, 08/22/19 03:59:29
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: BattleTank_04
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.259761
+LogStats: Stats thread started at 0.269079
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -156,694 +156,525 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:470][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.21-12.13.08:470][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.21-12.13.08:471][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:471][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:472][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.21-12.13.08:472][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.21-12.13.08:473][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.21-12.13.08:473][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.21-12.13.08:473][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.21-12.13.08:483][  0]LogHAL: Display: Platform has ~ 16 GB [17142755328 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.08.21-12.13.08:483][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.21-12.13.08:483][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
-[2019.08.21-12.13.08:483][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
-[2019.08.21-12.13.08:483][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.21-12.13.08:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.08.21-12.13.08:484][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
-[2019.08.21-12.13.08:485][  0]LogInit: Computer: GABBOPC
-[2019.08.21-12.13.08:485][  0]LogInit: User: MarranoWagan
-[2019.08.21-12.13.08:485][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.08.21-12.13.08:485][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.08.21-12.13.08:485][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2019.08.21-12.13.08:485][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.21-12.13.08:485][  0]LogMemory: Process Physical Memory: 97.31 MB used, 97.32 MB peak
-[2019.08.21-12.13.08:485][  0]LogMemory: Process Virtual Memory: 88.98 MB used, 88.98 MB peak
-[2019.08.21-12.13.08:485][  0]LogMemory: Physical Memory: 6253.25 MB used,  10095.35 MB free, 16348.61 MB total
-[2019.08.21-12.13.08:485][  0]LogMemory: Virtual Memory: 4656.38 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.08.21-12.13.08:499][  0]LogInit: Using OS detected language (it-IT).
-[2019.08.21-12.13.08:499][  0]LogInit: Using OS detected locale (it-IT).
-[2019.08.21-12.13.08:499][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
-[2019.08.21-12.13.08:499][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/it/Editor.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/it/EditorTutorials.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/it/Keywords.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/it/Category.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/it/ToolTips.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/it/PropertyNames.locres' could not be opened for reading!
-[2019.08.21-12.13.08:500][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/it/Engine.locres' could not be opened for reading!
-[2019.08.21-12.13.08:501][  0]LogInit: Setting process to per monitor DPI aware
-[2019.08.21-12.13.08:531][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.21-12.13.08:531][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.21-12.13.08:677][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.21-12.13.08:678][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.21-12.13.08:733][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.08.21-12.13.08:733][  0]LogD3D11RHI:       8088/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.08.21-12.13.08:735][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.21-12.13.08:735][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.21-12.13.08:735][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.21-12.13.08:739][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.21-12.13.08:739][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.21-12.13.08:739][  0]LogWindows: EnumDisplayDevices:
-[2019.08.21-12.13.08:740][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2019.08.21-12.13.08:740][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.21-12.13.08:740][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.21-12.13.08:740][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.21-12.13.08:740][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.08.21-12.13.08:740][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.08.21-12.13.08:740][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
-[2019.08.21-12.13.08:740][  0]LogD3D11RHI:      Driver Date: 7-30-2018
-[2019.08.21-12.13.08:740][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
-[2019.08.21-12.13.08:766][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.21-12.13.08:769][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.21-12.13.08:769][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.21-12.13.08:769][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.08.21-12.13.08:782][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.08.21-12.13.09:071][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.08.21-12.13.09:082][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.08.21-12.13.09:094][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.08.21-12.13.09:105][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.08.21-12.13.09:117][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.08.21-12.13.09:129][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.08.21-12.13.09:142][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.08.21-12.13.09:154][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.08.21-12.13.09:160][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.08.21-12.13.09:232][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.08.21-12.13.09:233][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.08.21-12.13.09:234][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.08.21-12.13.09:279][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.08.21-12.13.09:279][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.08.21-12.13.09:299][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.08.21-12.13.09:299][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.08.21-12.13.09:309][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.08.21-12.13.09:320][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.08.21-12.13.09:330][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.08.21-12.13.09:341][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.08.21-12.13.09:376][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.08.21-12.13.09:376][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.08.21-12.13.09:376][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.21-12.13.09:383][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.08.21-12.13.09:420][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Intermediate/Shaders/WorkingDirectory/4608/).
-[2019.08.21-12.13.09:420][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pollo Wagan/AppData/Local/Temp/UnrealShaderWorkingDir/756751B041A29C5D9433F7987DD632EE/'.
-[2019.08.21-12.13.09:422][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.21-12.13.09:422][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.21-12.13.09:422][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.21-12.13.09:883][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.21-12.13.09:922][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.21-12.13.09:922][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.08.21-12.13.09:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.21-12.13.09:923][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.21-12.13.09:923][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.21-12.13.09:923][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.21-12.13.09:933][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.21-12.13.09:933][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.21-12.13.09:933][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.21-12.13.09:945][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.21-12.13.09:945][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.21-12.13.09:945][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.21-12.13.09:963][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.21-12.13.09:964][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.21-12.13.09:965][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.21-12.13.10:035][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
-[2019.08.21-12.13.10:299][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.21-12.13.10:407][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.21-12.13.10:407][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.08.21-12.13.10:407][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.21-12.13.10:407][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.08.21-12.13.10:407][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.08.21-12.13.10:415][  0]LogNetVersion: BattleTank_04 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 632981125)
-[2019.08.21-12.13.10:726][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.032801 seconds
-[2019.08.21-12.13.10:732][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.08.21-12.13.10:732][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.08.21-12.13.10:732][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.21-12.13.11:354][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.21-12.13.11:367][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.21-12.13.11:481][  0]SourceControl: Source control is disabled
-[2019.08.21-12.13.11:481][  0]SourceControl: Source control is disabled
-[2019.08.21-12.13.11:482][  0]SourceControl: Source control is disabled
-[2019.08.21-12.13.11:483][  0]SourceControl: Source control is disabled
-[2019.08.21-12.13.11:537][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.21-12.13.11:589][  0]LogOcInput: OculusInput pre-init called
-[2019.08.21-12.13.12:110][  0]LogEngine: Initializing Engine...
-[2019.08.21-12.13.12:111][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.21-12.13.12:112][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.08.21-12.13.12:282][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.21-12.13.12:294][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.21-12.13.12:302][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.21-12.13.12:322][  0]LogInit: FAudioDevice initialized.
-[2019.08.21-12.13.12:322][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.21-12.13.12:369][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.08.21-12.13.12:378][  0]LogInit: Texture streaming: Enabled
-[2019.08.21-12.13.12:392][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.21-12.13.12:411][  0]LogInit: Transaction tracking system initialized
-[2019.08.21-12.13.12:431][  0]BlueprintLog: New page: Editor Load
-[2019.08.21-12.13.12:498][  0]LocalizationService: Localization service is disabled
-[2019.08.21-12.13.12:765][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/' took 0.02s
-[2019.08.21-12.13.12:765][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.21-12.13.12:765][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.21-12.13.12:900][  0]SourceControl: Source control is disabled
-[2019.08.21-12.13.12:900][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.21-12.13.12:900][  0]LightingResults: New page: Lighting Build
-[2019.08.21-12.13.12:902][  0]MapCheck: New page: Map Check
-[2019.08.21-12.13.12:902][  0]LightingResults: New page: Lighting Build
-[2019.08.21-12.13.12:924][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
-[2019.08.21-12.13.12:986][  0]LogAIModule: Creating AISystem for world MainMenu
-[2019.08.21-12.13.12:987][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.21-12.13.13:009][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
-[2019.08.21-12.13.13:009][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.21-12.13.13:009][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,112ms to complete.
-[2019.08.21-12.13.13:009][  0]LogFileHelpers: Loading map 'MainMenu' took 0.109
-[2019.08.21-12.13.13:110][  0]LogCollectionManager: Loaded 0 collections in 0.001729 seconds
-[2019.08.21-12.13.13:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Collections/' took 0.01s
-[2019.08.21-12.13.13:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Developers/MarranoWagan/Collections/' took 0.00s
-[2019.08.21-12.13.13:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Collections/' took 0.00s
-[2019.08.21-12.13.13:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.08.21-12.13.13:136][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2738 classes and 662 folders.
-[2019.08.21-12.13.13:143][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.08.21-12.13.13:144][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:145][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:146][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:147][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:148][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:150][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:151][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:152][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:152][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:152][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:153][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.21-12.13.13:180][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.08.21-12.13.13:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.21-12.13.13:199][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.21-12.13.13:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.21-12.13.13:221][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.21-12.13.13:233][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.08.21-12.13.14:080][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2019.08.21-12.13.14:100][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.21-12.13.14:103][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.21-12.13.14:103][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.21-12.13.14:111][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2019.08.21-12.13.14:195][  0]LogRenderer: Reallocating scene render targets to support 960x628 Format 10 NumSamples 1 (Frame:1).
-[2019.08.21-12.13.14:290][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.08.21-12.13.14:291][  0]LogLoad: (Engine Initialization) Total time: 7.27 seconds
-[2019.08.21-12.13.14:291][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.21-12.13.14:329][  0]LogAssetRegistry: Asset discovery search completed in 4.3175 seconds
-[2019.08.21-12.13.14:332][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.21-12.13.14:332][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000138 seconds (updated 0 objects)
-[2019.08.21-12.13.14:333][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2019.08.21-12.13.15:441][113]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.21-12.13.15:442][113]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.08.21-12.13.15:447][113]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
-[2019.08.21-12.13.15:632][113]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
-[2019.08.21-12.13.16:239][113]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Barrel.tank_fbx_Barrel
-[2019.08.21-12.13.16:247][113]LogBlueprintActionDatabase: Requesting refresh due to module change: StaticMeshEditor (loaded)
-[2019.08.21-12.13.16:811][113]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.08.21-12.13.16:880][114]LogRenderer: Reallocating scene render targets to support 1248x960 Format 10 NumSamples 1 (Frame:1).
-[2019.08.21-12.13.19:639][430]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.08.21-12.13.19:810][451]LogSlate: Window 'Tank_BP' being destroyed
-[2019.08.21-12.13.42:193][927]LogAssetEditorManager: Opening Asset editor for Class /Script/BattleTank_04.Tank
-[2019.08.21-12.15.09:653][369]LogHotReload: New module detected: UE4Editor-BattleTank_04-0145.dll
-[2019.08.21-12.15.10:679][373]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.21-12.15.10:738][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
-[2019.08.21-12.15.10:738][373]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
-[2019.08.21-12.15.10:765][373]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
-[2019.08.21-12.15.10:766][373]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0003 seconds. Added 6 classes and 3 folders.
-[2019.08.21-12.15.10:769][373]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.08.21-12.15.10:912][373]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
-[2019.08.21-12.15.10:912][373]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-12.15.10:919][373]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2739 classes and 664 folders.
-[2019.08.21-12.15.10:926][373]Display: HotReload took  0.2s.
-[2019.08.21-12.16.47:704][662]LogHotReload: New module detected: UE4Editor-BattleTank_04-0147.dll
-[2019.08.21-12.16.48:383][665]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.21-12.16.48:471][665]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
-[2019.08.21-12.16.48:471][665]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
-[2019.08.21-12.16.48:499][665]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
-[2019.08.21-12.16.48:499][665]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0003 seconds. Added 6 classes and 3 folders.
-[2019.08.21-12.16.48:503][665]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.08.21-12.16.48:586][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
-[2019.08.21-12.16.48:586][665]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-12.16.48:594][665]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2739 classes and 664 folders.
-[2019.08.21-12.16.48:601][665]Display: HotReload took  0.2s.
-[2019.08.21-12.23.44:409][782]Candidate modules for hot reload:
-[2019.08.21-12.23.44:409][782]  BattleTank_04
-[2019.08.21-12.23.44:409][782]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,8973 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-12.23.53:769][782]CompilerResultsLog: New page: Compilation - 21/ago/2019 16:23:53
-[2019.08.21-12.23.53:769][782]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-12.23.53:770][782]CompilerResultsLog: Invalidating makefile for BattleTank_04Editor (source file added)
-[2019.08.21-12.23.53:770][782]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-12.23.53:770][782]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-12.23.53:770][782]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,5138531 seconds
-[2019.08.21-12.23.53:771][782]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-12.23.53:771][782]CompilerResultsLog: Building 7 actions with 8 processes...
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   [1/7] BattleTank_04.init.gen.cpp
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   [2/7] TankBarrel.cpp
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   [3/7] TankBarrel.gen.cpp
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   [4/7] TankAimingComponent.cpp
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(64): warning C4456: declaration of 'AimDirection' hides previous local declaration
-[2019.08.21-12.23.53:771][782]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(50): note: see declaration of 'AimDirection'
-[2019.08.21-12.23.53:772][782]CompilerResultsLog:   [5/7] UE4Editor-BattleTank_04-8973.lib
-[2019.08.21-12.23.53:772][782]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-8973.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-8973.exp
-[2019.08.21-12.23.53:772][782]CompilerResultsLog:   [6/7] UE4Editor-BattleTank_04-8973.dll
-[2019.08.21-12.23.53:773][782]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-8973.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-8973.suppressed.exp
-[2019.08.21-12.23.53:773][782]CompilerResultsLog:   [7/7] BattleTank_04Editor.target
-[2019.08.21-12.23.53:773][782]CompilerResultsLog: Total time in Parallel executor: 1,84 seconds
-[2019.08.21-12.23.53:773][782]CompilerResultsLog: Total execution time: 9,27 seconds
-[2019.08.21-12.23.53:773][782]LogMainFrame: MainFrame: Module compiling took 9.367 seconds
-[2019.08.21-12.23.53:835][782]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
-[2019.08.21-12.23.53:835][782]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
-[2019.08.21-12.23.53:866][782]LogClass: Could not find existing class TankBarrel in package /Script/BattleTank_04 for HotReload, assuming new class
-[2019.08.21-12.23.53:871][782]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
-[2019.08.21-12.23.53:872][782]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0004 seconds. Added 7 classes and 3 folders.
-[2019.08.21-12.23.53:876][782]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.08.21-12.23.53:951][782]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
-[2019.08.21-12.23.53:951][782]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-12.23.53:961][782]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2740 classes and 664 folders.
-[2019.08.21-12.23.53:968][782]Display: HotReload took  9.6s.
-[2019.08.21-12.23.53:969][782]Warning: HotReload operation took  9.6s.
-[2019.08.21-12.23.54:266][782]LogSlate: Window 'Add C++ Class' being destroyed
-[2019.08.21-12.23.54:517][782]LogHotReload: New module detected: UE4Editor-BattleTank_04-8973.dll
-[2019.08.21-12.23.54:540][783]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.21-12.23.54:614][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
-[2019.08.21-12.23.54:614][783]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
-[2019.08.21-12.23.54:619][783]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
-[2019.08.21-12.23.54:619][783]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2019.08.21-12.23.54:624][783]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.08.21-12.23.54:666][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
-[2019.08.21-12.23.54:667][783]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-12.23.54:676][783]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2740 classes and 664 folders.
-[2019.08.21-12.23.54:684][783]Display: HotReload took  0.1s.
-[2019.08.21-12.35.12:416][515]LogAIModule: Creating AISystem for world BattleGround
-[2019.08.21-12.35.12:435][515]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/BattleGround.BattleGround
-[2019.08.21-12.35.12:496][515]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
-[2019.08.21-12.35.12:497][515]Cmd: MAP LOAD FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.21-12.35.12:497][515]LightingResults: New page: Lighting Build
-[2019.08.21-12.35.12:498][515]LoadErrors: New page: Loading map: BattleGround.umap
-[2019.08.21-12.35.12:498][515]MapCheck: New page: Map Check
-[2019.08.21-12.35.12:498][515]LightingResults: New page: Lighting Build
-[2019.08.21-12.35.12:532][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2019.08.21-12.35.13:991][515]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.21-12.35.14:022][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
-[2019.08.21-12.35.14:044][515]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.21-12.35.14:044][515]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,094ms to complete.
-[2019.08.21-12.35.14:044][515]LogFileHelpers: Loading map 'BattleGround' took 1.548
-[2019.08.21-12.35.14:624][559]Candidate modules for hot reload:
-[2019.08.21-12.35.14:624][559]  BattleTank_04
-[2019.08.21-12.35.14:625][559]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,9121 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-12.35.14:627][559]Warning: Starting HotReload took  0.0s.
-[2019.08.21-12.35.26:853][  1]CompilerResultsLog: New page: Compilation - 21/ago/2019 16:35:26
-[2019.08.21-12.35.26:853][  1]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-12.35.26:853][  1]CompilerResultsLog: Creating makefile for BattleTank_04Editor (ini files are newer than makefile)
-[2019.08.21-12.35.26:853][  1]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-12.35.26:853][  1]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 6,1221263 seconds
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog: Building 14 actions with 8 processes...
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog:   [1/14] TankBarrel.cpp
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog:   [2/14] TankBarrel.gen.cpp
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog:   [3/14] BattleTank_04.init.gen.cpp
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog:   [4/14] Tank.cpp
-[2019.08.21-12.35.26:854][  1]CompilerResultsLog:   [5/14] TankAimingComponent.gen.cpp
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:   [6/14] Tank.gen.cpp
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:   [7/14] TankPC_Cpp.gen.cpp
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:   [8/14] TankAimingComponent.cpp
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(38) : error C2440: '=': cannot convert from 'UStaticMeshComponent *' to 'UTankBarrel *'
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(38): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(48) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.35.26:855][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.35.26:856][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(64): warning C4456: declaration of 'AimDirection' hides previous local declaration
-[2019.08.21-12.35.26:856][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(50): note: see declaration of 'AimDirection'
-[2019.08.21-12.35.26:856][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(74) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.35.26:856][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.35.26:856][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C3536: 'BarrelRotator': cannot be used before it is initialized
-[2019.08.21-12.35.26:857][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C2678: binary '-': no operator found which takes a left-hand operand of type 'FRotator' (or there is no acceptable conversion)
-[2019.08.21-12.35.26:857][  1]CompilerResultsLog:   c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Math/Rotator.h(490): note: could be 'FRotator FRotator::operator -(const FRotator &) const'
-[2019.08.21-12.35.26:857][  1]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h(210): note: or       'FFrameTime operator -(FFrameTime,FFrameTime)'
-[2019.08.21-12.35.26:857][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76): note: while trying to match the argument list '(FRotator, int)'
-[2019.08.21-12.35.26:858][  1]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(80) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.35.26:858][  1]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.35.26:858][  1]CompilerResultsLog:   [9/14] TankPC_Cpp.cpp
-[2019.08.21-12.35.26:858][  1]CompilerResultsLog:   [10/14] TankAiController_cpp.gen.cpp
-[2019.08.21-12.35.26:858][  1]CompilerResultsLog:   [11/14] TankAiController_cpp.cpp
-[2019.08.21-12.35.26:858][  1]LogMainFrame: MainFrame: Module compiling took 12.235 seconds
-[2019.08.21-12.35.26:858][  1]Warning: HotReload failed, recompile failed
-[2019.08.21-12.35.28:948][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.21-12.45.44:257][776]Candidate modules for hot reload:
-[2019.08.21-12.45.44:258][776]  BattleTank_04
-[2019.08.21-12.45.44:258][776]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,7482 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-12.45.44:260][776]Warning: Starting HotReload took  0.0s.
-[2019.08.21-12.45.54:948][ 35]CompilerResultsLog: New page: Compilation - 21/ago/2019 16:45:54
-[2019.08.21-12.45.54:948][ 35]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-12.45.54:948][ 35]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 6,1850202 seconds
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog: Building 12 actions with 8 processes...
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog:   [1/12] BattleTank_04.init.gen.cpp
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog:   [2/12] TankAimingComponent.gen.cpp
-[2019.08.21-12.45.54:949][ 35]CompilerResultsLog:   [3/12] TankAimingComponent.cpp
-[2019.08.21-12.45.54:950][ 35]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(48) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.45.54:950][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.45.54:950][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(64): warning C4456: declaration of 'AimDirection' hides previous local declaration
-[2019.08.21-12.45.54:950][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(50): note: see declaration of 'AimDirection'
-[2019.08.21-12.45.54:950][ 35]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(74) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.45.54:951][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.45.54:951][ 35]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C3536: 'BarrelRotator': cannot be used before it is initialized
-[2019.08.21-12.45.54:951][ 35]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C2678: binary '-': no operator found which takes a left-hand operand of type 'FRotator' (or there is no acceptable conversion)
-[2019.08.21-12.45.54:951][ 35]CompilerResultsLog:   c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Math/Rotator.h(490): note: could be 'FRotator FRotator::operator -(const FRotator &) const'
-[2019.08.21-12.45.54:952][ 35]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h(210): note: or       'FFrameTime operator -(FFrameTime,FFrameTime)'
-[2019.08.21-12.45.54:952][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76): note: while trying to match the argument list '(FRotator, int)'
-[2019.08.21-12.45.54:952][ 35]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(80) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   [4/12] TankPC_Cpp.gen.cpp
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   [5/12] Tank.cpp
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   [6/12] Tank.gen.cpp
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   [7/12] TankPC_Cpp.cpp
-[2019.08.21-12.45.54:953][ 35]CompilerResultsLog:   [8/12] TankAiController_cpp.cpp
-[2019.08.21-12.45.54:954][ 35]CompilerResultsLog:   [9/12] TankAiController_cpp.gen.cpp
-[2019.08.21-12.45.54:954][ 35]LogMainFrame: MainFrame: Module compiling took 10.699 seconds
-[2019.08.21-12.45.54:954][ 35]Warning: HotReload failed, recompile failed
-[2019.08.21-12.47.37:716][175]Candidate modules for hot reload:
-[2019.08.21-12.47.37:716][175]  BattleTank_04
-[2019.08.21-12.47.37:716][175]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,3122 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-12.47.37:717][175]Warning: Starting HotReload took  0.0s.
-[2019.08.21-12.47.46:665][412]CompilerResultsLog: New page: Compilation - 21/ago/2019 16:47:46
-[2019.08.21-12.47.46:666][412]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-12.47.46:667][412]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-12.47.46:668][412]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-12.47.46:670][412]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,4198531 seconds
-[2019.08.21-12.47.46:671][412]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-12.47.46:672][412]CompilerResultsLog: Building 10 actions with 8 processes...
-[2019.08.21-12.47.46:672][412]CompilerResultsLog:   [1/10] TankAimingComponent.cpp
-[2019.08.21-12.47.46:673][412]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(48) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.47.46:674][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.47.46:675][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(64): warning C4456: declaration of 'AimDirection' hides previous local declaration
-[2019.08.21-12.47.46:676][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(50): note: see declaration of 'AimDirection'
-[2019.08.21-12.47.46:677][412]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(74) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.47.46:678][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.47.46:678][412]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C3536: 'BarrelRotator': cannot be used before it is initialized
-[2019.08.21-12.47.46:679][412]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76) : error C2678: binary '-': no operator found which takes a left-hand operand of type 'FRotator' (or there is no acceptable conversion)
-[2019.08.21-12.47.46:680][412]CompilerResultsLog:   c:\program files\epic games\ue_4.22\engine\source\runtime\core\public\Math/Rotator.h(490): note: could be 'FRotator FRotator::operator -(const FRotator &) const'
-[2019.08.21-12.47.46:681][412]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/FrameTime.h(210): note: or       'FFrameTime operator -(FFrameTime,FFrameTime)'
-[2019.08.21-12.47.46:681][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(76): note: while trying to match the argument list '(FRotator, int)'
-[2019.08.21-12.47.46:682][412]CompilerResultsLog:    C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(80) : error C2027: use of undefined type 'UTankBarrel'
-[2019.08.21-12.47.46:682][412]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Public\TankAimingComponent.h(10): note: see declaration of 'UTankBarrel'
-[2019.08.21-12.47.46:683][412]CompilerResultsLog:   [2/10] Tank.cpp
-[2019.08.21-12.47.46:683][412]CompilerResultsLog:   [3/10] TankPC_Cpp.cpp
-[2019.08.21-12.47.46:683][412]CompilerResultsLog:   [4/10] Tank.gen.cpp
-[2019.08.21-12.47.46:683][412]CompilerResultsLog:   [5/10] TankPC_Cpp.gen.cpp
-[2019.08.21-12.47.46:683][412]CompilerResultsLog:   [6/10] TankAiController_cpp.cpp
-[2019.08.21-12.47.46:684][412]CompilerResultsLog:   [7/10] TankAiController_cpp.gen.cpp
-[2019.08.21-12.47.46:684][412]LogMainFrame: MainFrame: Module compiling took 8.971 seconds
-[2019.08.21-12.47.46:684][412]Warning: HotReload failed, recompile failed
-[2019.08.21-12.56.39:465][887]Candidate modules for hot reload:
-[2019.08.21-12.56.39:465][887]  BattleTank_04
-[2019.08.21-12.56.39:465][887]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,704 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-12.56.39:467][887]Warning: Starting HotReload took  0.0s.
-[2019.08.21-12.56.47:553][984]CompilerResultsLog: New page: Compilation - 21/ago/2019 16:56:47
-[2019.08.21-12.56.47:553][984]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-12.56.47:553][984]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-12.56.47:553][984]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-12.56.47:553][984]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,1457492 seconds
-[2019.08.21-12.56.47:553][984]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-12.56.47:554][984]CompilerResultsLog: Building 4 actions with 8 processes...
-[2019.08.21-12.56.47:554][984]CompilerResultsLog:   [1/4] TankAimingComponent.cpp
-[2019.08.21-12.56.47:554][984]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(65): warning C4456: declaration of 'AimDirection' hides previous local declaration
-[2019.08.21-12.56.47:554][984]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(51): note: see declaration of 'AimDirection'
-[2019.08.21-12.56.47:554][984]CompilerResultsLog:   [2/4] UE4Editor-BattleTank_04-0704.lib
-[2019.08.21-12.56.47:554][984]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-0704.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-0704.exp
-[2019.08.21-12.56.47:555][984]CompilerResultsLog:   [3/4] UE4Editor-BattleTank_04-0704.dll
-[2019.08.21-12.56.47:555][984]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-0704.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-0704.suppressed.exp
-[2019.08.21-12.56.47:555][984]CompilerResultsLog:   [4/4] BattleTank_04Editor.target
-[2019.08.21-12.56.47:555][984]CompilerResultsLog: Total time in Parallel executor: 1,76 seconds
-[2019.08.21-12.56.47:555][984]CompilerResultsLog: Total execution time: 7,94 seconds
-[2019.08.21-12.56.47:555][984]LogMainFrame: MainFrame: Module compiling took 8.093 seconds
-[2019.08.21-12.56.47:588][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
-[2019.08.21-12.56.47:589][984]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-12.56.47:597][984]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2740 classes and 664 folders.
-[2019.08.21-12.56.47:607][984]Display: HotReload took  8.2s.
-[2019.08.21-13.16.52:469][780]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
-[2019.08.21-13.16.53:207][780]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround7C7AE9D647360F9B48AE808E6FD4DFD9.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
-[2019.08.21-13.16.53:267][780]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltData53D57BD944422B800DDE68B38D3A5B7E.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
-[2019.08.21-13.16.53:962][855]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
-[2019.08.21-13.16.55:417][ 28]Candidate modules for hot reload:
-[2019.08.21-13.16.55:417][ 28]  BattleTank_04
-[2019.08.21-13.16.55:417][ 28]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,2074 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
-[2019.08.21-13.16.55:420][ 28]Warning: Starting HotReload took  0.0s.
-[2019.08.21-13.17.05:123][178]CompilerResultsLog: New page: Compilation - 21/ago/2019 17:17:05
-[2019.08.21-13.17.05:123][178]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
-[2019.08.21-13.17.05:123][178]CompilerResultsLog: Creating makefile for BattleTank_04Editor (ini files are newer than makefile)
-[2019.08.21-13.17.05:123][178]CompilerResultsLog: Parsing headers for BattleTank_04Editor
-[2019.08.21-13.17.05:123][178]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.21-13.17.05:124][178]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 6,23461 seconds
-[2019.08.21-13.17.05:124][178]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.21-13.17.05:124][178]CompilerResultsLog: Building 3 actions with 8 processes...
-[2019.08.21-13.17.05:124][178]CompilerResultsLog:   [1/3] UE4Editor-BattleTank_04-2074.lib
-[2019.08.21-13.17.05:124][178]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-2074.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-2074.exp
-[2019.08.21-13.17.05:124][178]CompilerResultsLog:   [2/3] UE4Editor-BattleTank_04-2074.dll
-[2019.08.21-13.17.05:125][178]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-2074.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-2074.suppressed.exp
-[2019.08.21-13.17.05:125][178]CompilerResultsLog:   [3/3] BattleTank_04Editor.target
-[2019.08.21-13.17.05:125][178]CompilerResultsLog: Total time in Parallel executor: 1,25 seconds
-[2019.08.21-13.17.05:125][178]CompilerResultsLog: Total execution time: 9,61 seconds
-[2019.08.21-13.17.05:125][178]LogMainFrame: MainFrame: Module compiling took 9.710 seconds
-[2019.08.21-13.17.05:155][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
-[2019.08.21-13.17.05:155][178]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
-[2019.08.21-13.17.05:176][178]LogClass: Could not find existing class Tank in package /Script/BattleTank_04 for HotReload, assuming new class
-[2019.08.21-13.17.05:176][178]LogClass: Function SetBarrelReference is new.
-[2019.08.21-13.17.05:178][178]LogClass: Could not find existing class TankAimingComponent in package /Script/BattleTank_04 for HotReload, assuming new class
-[2019.08.21-13.17.05:188][178]LogHotReload: Re-instancing Tank after hot-reload.
-[2019.08.21-13.17.05:193][178]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel  and  Barrel to Set : Static Mesh Component Object Reference is not compatible with Tank Barrel Object Reference.
-[2019.08.21-13.17.05:193][178]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel to Set  and  Barrel : Tank Barrel Object Reference is not compatible with Static Mesh Component Object Reference.
-[2019.08.21-13.17.05:195][178]LogBlueprint: Warning: [Compiler Tank_BP] [3838,17] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 6 ms] (/Game/Tank/Tank_BP.Tank_BP)
-[2019.08.21-13.17.05:432][178]LogHotReload: Re-instancing TankAimingComponent after hot-reload.
-[2019.08.21-13.17.05:545][178]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
-[2019.08.21-13.17.05:546][178]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0004 seconds. Added 7 classes and 3 folders.
-[2019.08.21-13.17.05:550][178]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
-[2019.08.21-13.17.05:632][178]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
-[2019.08.21-13.17.05:634][178]LogBlueprintActionDatabase: Requesting refresh due to hot reload
-[2019.08.21-13.17.05:643][178]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2740 classes and 664 folders.
-[2019.08.21-13.17.05:649][178]Display: HotReload took 10.2s.
-[2019.08.21-13.17.07:209][330]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
-[2019.08.21-13.17.07:830][330]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGroundF6F26648435D8497F8AB509E2F7655DE.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
-[2019.08.21-13.17.07:877][330]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltDataFA0FB8984C8D90F73AC62DA06FFE4534.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
-[2019.08.21-13.17.08:465][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:749][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.22-01.59.29:749][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.22-01.59.29:750][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:750][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.22-01.59.29:752][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.22-01.59.29:753][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.22-01.59.29:753][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.22-01.59.29:753][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.22-01.59.29:753][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:753][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.22-01.59.29:753][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.22-01.59.29:753][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.22-01.59.29:753][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.22-01.59.29:764][  0]LogHAL: Display: Platform has ~ 16 GB [17142755328 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.08.22-01.59.29:764][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.22-01.59.29:764][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2019.08.22-01.59.29:764][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Scalability.ini]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.08.22-01.59.29:765][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Config/Windows/Engine.ini]
+[2019.08.22-01.59.29:765][  0]LogInit: Computer: GABBOPC
+[2019.08.22-01.59.29:765][  0]LogInit: User: MarranoWagan
+[2019.08.22-01.59.29:765][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.22-01.59.29:765][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.22-01.59.29:766][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.08.22-01.59.29:766][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.22-01.59.29:766][  0]LogMemory: Process Physical Memory: 97.40 MB used, 97.41 MB peak
+[2019.08.22-01.59.29:766][  0]LogMemory: Process Virtual Memory: 88.92 MB used, 88.92 MB peak
+[2019.08.22-01.59.29:766][  0]LogMemory: Physical Memory: 7425.07 MB used,  8923.54 MB free, 16348.61 MB total
+[2019.08.22-01.59.29:766][  0]LogMemory: Virtual Memory: 4656.38 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.08.22-01.59.29:782][  0]LogInit: Using OS detected language (it-IT).
+[2019.08.22-01.59.29:782][  0]LogInit: Using OS detected locale (it-IT).
+[2019.08.22-01.59.29:782][  0]LogTextLocalizationManager: No specific localization for 'it-IT' exists, so the 'it' localization will be used.
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/it/Editor.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/it/EditorTutorials.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/it/Keywords.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/it/Category.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/it/ToolTips.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/it/PropertyNames.locres' could not be opened for reading!
+[2019.08.22-01.59.29:783][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/it/Engine.locres' could not be opened for reading!
+[2019.08.22-01.59.29:784][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.22-01.59.29:817][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.22-01.59.29:817][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.22-01.59.29:977][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.22-01.59.29:977][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.22-01.59.30:025][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.08.22-01.59.30:025][  0]LogD3D11RHI:       8088/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.08.22-01.59.30:027][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.22-01.59.30:027][  0]LogD3D11RHI:       0/0/8174 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.22-01.59.30:027][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.22-01.59.30:033][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.22-01.59.30:033][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.22-01.59.30:033][  0]LogWindows: EnumDisplayDevices:
+[2019.08.22-01.59.30:033][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2019.08.22-01.59.30:033][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.22-01.59.30:033][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.22-01.59.30:034][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.22-01.59.30:034][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.22-01.59.30:034][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.08.22-01.59.30:034][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.08.22-01.59.30:034][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.08.22-01.59.30:034][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2019.08.22-01.59.30:063][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.22-01.59.30:066][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.22-01.59.30:066][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.22-01.59.30:066][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.08.22-01.59.30:080][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.08.22-01.59.30:370][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.08.22-01.59.30:384][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.08.22-01.59.30:395][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.08.22-01.59.30:416][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.08.22-01.59.30:431][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.08.22-01.59.30:443][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.08.22-01.59.30:455][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.08.22-01.59.30:468][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.08.22-01.59.30:474][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.08.22-01.59.30:569][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.08.22-01.59.30:571][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.08.22-01.59.30:622][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.08.22-01.59.30:622][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.08.22-01.59.30:647][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.08.22-01.59.30:647][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.08.22-01.59.30:657][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.08.22-01.59.30:674][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.08.22-01.59.30:684][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.08.22-01.59.30:694][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.08.22-01.59.30:730][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.08.22-01.59.30:730][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.08.22-01.59.30:730][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.22-01.59.30:737][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.08.22-01.59.30:778][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Intermediate/Shaders/WorkingDirectory/17068/).
+[2019.08.22-01.59.30:778][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pollo Wagan/AppData/Local/Temp/UnrealShaderWorkingDir/A294542D4DC794A6F7F476A0E454CBA7/'.
+[2019.08.22-01.59.30:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.22-01.59.30:780][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.22-01.59.30:780][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.22-01.59.31:303][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.22-01.59.31:345][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.22-01.59.31:355][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.22-01.59.31:355][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.22-01.59.31:355][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.22-01.59.31:368][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.22-01.59.31:368][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.22-01.59.31:368][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.22-01.59.31:389][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.22-01.59.31:390][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.22-01.59.31:390][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.22-01.59.31:469][  0]LogAssetRegistry: FAssetRegistry took 0.0355 seconds to start up
+[2019.08.22-01.59.31:807][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.22-01.59.31:930][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.22-01.59.31:930][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.08.22-01.59.31:930][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.22-01.59.31:930][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.08.22-01.59.31:930][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.08.22-01.59.31:939][  0]LogNetVersion: BattleTank_04 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 632981125)
+[2019.08.22-01.59.32:288][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.040525 seconds
+[2019.08.22-01.59.32:294][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.08.22-01.59.32:294][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.08.22-01.59.32:294][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.22-01.59.32:996][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.22-01.59.33:009][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.22-01.59.33:119][  0]SourceControl: Source control is disabled
+[2019.08.22-01.59.33:119][  0]SourceControl: Source control is disabled
+[2019.08.22-01.59.33:120][  0]SourceControl: Source control is disabled
+[2019.08.22-01.59.33:121][  0]SourceControl: Source control is disabled
+[2019.08.22-01.59.33:186][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.22-01.59.33:241][  0]LogOcInput: OculusInput pre-init called
+[2019.08.22-01.59.33:839][  0]LogEngine: Initializing Engine...
+[2019.08.22-01.59.33:839][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.22-01.59.33:841][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.08.22-01.59.34:035][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.22-01.59.34:047][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.22-01.59.34:055][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.22-01.59.34:076][  0]LogInit: FAudioDevice initialized.
+[2019.08.22-01.59.34:076][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.22-01.59.34:132][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Pollo Wagan/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.08.22-01.59.34:142][  0]LogInit: Texture streaming: Enabled
+[2019.08.22-01.59.34:158][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.22-01.59.34:175][  0]LogInit: Transaction tracking system initialized
+[2019.08.22-01.59.34:198][  0]BlueprintLog: New page: Editor Load
+[2019.08.22-01.59.34:265][  0]LocalizationService: Localization service is disabled
+[2019.08.22-01.59.34:564][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/' took 0.01s
+[2019.08.22-01.59.34:564][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.22-01.59.34:564][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.22-01.59.34:705][  0]SourceControl: Source control is disabled
+[2019.08.22-01.59.34:789][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.22-01.59.36:116][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.08.22-01.59.36:116][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.22-01.59.36:118][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.08.22-01.59.36:123][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.22-01.59.36:123][  0]LightingResults: New page: Lighting Build
+[2019.08.22-01.59.36:126][  0]MapCheck: New page: Map Check
+[2019.08.22-01.59.36:126][  0]LightingResults: New page: Lighting Build
+[2019.08.22-01.59.36:155][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.08.22-01.59.36:176][  0]LogAIModule: Creating AISystem for world MainMenu
+[2019.08.22-01.59.36:177][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.22-01.59.36:200][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.08.22-01.59.36:201][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.22-01.59.36:201][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,114ms to complete.
+[2019.08.22-01.59.36:201][  0]LogFileHelpers: Loading map 'MainMenu' took 0.078
+[2019.08.22-01.59.36:237][  0]LogCollectionManager: Loaded 0 collections in 0.001688 seconds
+[2019.08.22-01.59.36:263][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Collections/' took 0.01s
+[2019.08.22-01.59.36:263][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Developers/MarranoWagan/Collections/' took 0.00s
+[2019.08.22-01.59.36:263][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Collections/' took 0.01s
+[2019.08.22-01.59.36:263][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.22-01.59.36:270][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2739 classes and 662 folders.
+[2019.08.22-01.59.36:277][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.08.22-01.59.36:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:279][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:279][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:279][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:280][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:282][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:283][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:285][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:286][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.22-01.59.36:309][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.22-01.59.36:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.22-01.59.36:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.22-01.59.36:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.22-01.59.36:344][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.22-01.59.36:352][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.08.22-01.59.37:225][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.08.22-01.59.37:252][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.22-01.59.37:252][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.22-01.59.37:259][  0]LogSlate: Took 0.000095 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.08.22-01.59.37:323][  0]LogRenderer: Reallocating scene render targets to support 960x628 Format 10 NumSamples 1 (Frame:1).
+[2019.08.22-01.59.37:401][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.22-01.59.37:401][  0]LogLoad: (Engine Initialization) Total time: 9.18 seconds
+[2019.08.22-01.59.37:402][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.22-01.59.37:496][  0]LogAssetRegistry: Asset discovery search completed in 6.0491 seconds
+[2019.08.22-01.59.37:498][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.22-01.59.37:498][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000155 seconds (updated 0 objects)
+[2019.08.22-01.59.37:500][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.08.22-01.59.38:431][106]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.22-01.59.38:655][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-01.59.38:865][152]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel  and  Barrel to Set : Static Mesh Component Object Reference is not compatible with Tank Barrel Object Reference.
+[2019.08.22-01.59.38:865][152]LogBlueprint: Error: [Compiler Tank_BP] Can't connect pins  Barrel to Set  and  Barrel : Tank Barrel Object Reference is not compatible with Static Mesh Component Object Reference.
+[2019.08.22-01.59.38:867][152]LogBlueprint: Warning: [Compiler Tank_BP] [0010,65] Compile of Tank_BP failed. 2 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/Tank/Tank_BP.Tank_BP)
+[2019.08.22-01.59.39:003][152]LogAIModule: Creating AISystem for world BattleGround
+[2019.08.22-01.59.39:021][152]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/BattleGround.BattleGround
+[2019.08.22-01.59.39:044][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.08.22-01.59.39:044][152]Cmd: MAP LOAD FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.22-01.59.39:045][152]LightingResults: New page: Lighting Build
+[2019.08.22-01.59.39:045][152]LoadErrors: New page: Loading map: BattleGround.umap
+[2019.08.22-01.59.39:045][152]MapCheck: New page: Map Check
+[2019.08.22-01.59.39:046][152]LightingResults: New page: Lighting Build
+[2019.08.22-01.59.39:067][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.08.22-01.59.39:186][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.22-01.59.39:210][152]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.08.22-01.59.39:234][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.22-01.59.39:235][152]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,076ms to complete.
+[2019.08.22-01.59.39:236][152]LogFileHelpers: Loading map 'BattleGround' took 0.192
+[2019.08.22-01.59.42:929][576]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2019.08.22-01.59.43:160][576]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 121 classes and 0 folders.
+[2019.08.22-01.59.43:883][576]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.22-01.59.45:227][726]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.22-01.59.45:458][754]LogSlate: Window 'Tank_BP' being destroyed
+[2019.08.22-01.59.46:298][851]LogRenderer: Reallocating scene render targets to support 1076x740 Format 10 NumSamples 1 (Frame:1).
+[2019.08.22-01.59.50:343][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-01.59.57:466][172]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2019.08.22-01.59.57:470][172]LogBlueprintActionDatabase: Requesting refresh due to module change: StaticMeshEditor (loaded)
+[2019.08.22-01.59.58:077][173]LogRenderer: Reallocating scene render targets to support 1248x960 Format 10 NumSamples 1 (Frame:1).
+[2019.08.22-02.00.02:493][674]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Turret4A5EB6E04509CB8EB33DA384AA753600.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Turret.uasset'
+[2019.08.22-02.00.24:004][238]LogEditorTransaction: Undo Make New Scene Root
+[2019.08.22-02.00.33:193][313]BlueprintLog: New page: Compile Tank_BP
+[2019.08.22-02.00.33:387][313]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2019.08.22-02.00.38:217][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.00.45:569][746]LogBlueprintActionDatabase: Requesting refresh due to module change: HierarchicalLODUtilities (loaded)
+[2019.08.22-02.01.00:314][451]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.01.05:767][ 53]BlueprintLog: New page: Compile Tank_BP
+[2019.08.22-02.01.06:019][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2019.08.22-02.01.06:204][ 65]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.22-02.01.06:247][ 65]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BP83AFF4B54456088A8710F392DF6C3E60.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.22-02.01.09:520][448]LogStaticMesh: Building static mesh tank_fbx_Turret...
+[2019.08.22-02.01.09:529][448]LogBlueprintActionDatabase: Requesting refresh due to module change: MeshBuilder (loaded)
+[2019.08.22-02.01.09:546][448]LogStaticMesh: Built static mesh [0.03s] /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2019.08.22-02.01.25:595][315]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.01.25:730][325]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_Turret48C6C5924F5777A517F24988BE4D84CE.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Turret.uasset'
+[2019.08.22-02.01.30:092][836]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Tank/Tank_BP.Tank_BP
+[2019.08.22-02.01.34:935][366]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.01.38:409][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.01.38:500][780]BlueprintLog: New page: Compile Tank_BP
+[2019.08.22-02.01.38:785][780]LogUObjectHash: Compacting FUObjectHashTables data took   5.23ms
+[2019.08.22-02.01.38:857][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tank/Tank_BP" FILE="../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset" SILENT=true
+[2019.08.22-02.01.38:894][781]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/Tank_BP411BD112417698B3EB82AC9BBD7442CD.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/Tank_BP.uasset'
+[2019.08.22-02.01.42:045][151]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Tank/tank_fbx_Turret.tank_fbx_Turret
+[2019.08.22-02.01.49:278][989]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/tank_fbx_TurretBE04E45F48BD55FE0D8177AD71ADEDE4.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Tank/tank_fbx_Turret.uasset'
+[2019.08.22-02.02.22:459][425]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.02.33:013][648]LogEditorTransaction: Undo Modify Component(s)
+[2019.08.22-02.02.39:559][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.02.42:079][726]BlueprintLog: New page: Compile Tank_BP
+[2019.08.22-02.02.42:345][726]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2019.08.22-02.02.53:552][ 40]LogEditorTransaction: Undo Modify Component(s)
+[2019.08.22-02.02.54:797][187]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.22-02.02.54:881][197]BlueprintLog: New page: Compile Tank_BP
+[2019.08.22-02.02.55:093][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2019.08.22-02.04.05:183][831]Candidate modules for hot reload:
+[2019.08.22-02.04.05:183][831]  BattleTank_04
+[2019.08.22-02.04.05:183][831]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=BattleTank_04,9282 Win64 Development -TargetType=Editor -Project="C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject" "C:/Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/BattleTank_04.uproject"  -IgnoreJunk]
+[2019.08.22-02.04.05:185][831]Warning: Starting HotReload took  0.0s.
+[2019.08.22-02.04.10:627][156]LogUObjectHash: Compacting FUObjectHashTables data took   3.68ms
+[2019.08.22-02.04.11:317][156]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGroundCCF8C08C40DA8550E26DF597562E526F.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround.umap'
+[2019.08.22-02.04.11:376][156]LogSavePackage: Moving '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Saved/BattleGround_BuiltDataFDA63BE5485CBE2468F73CAB0AC82ED6.tmp' to '../../../../../../Users/Pollo Wagan/Documents/casual project unreal/Battle_Tank/Battle_Tank/BattleTank_04/Content/Maps/BattleGround_BuiltData.uasset'
+[2019.08.22-02.04.14:709][201]CompilerResultsLog: New page: Compilation - 22/ago/2019 06:04:14
+[2019.08.22-02.04.14:709][201]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank).
+[2019.08.22-02.04.14:710][201]CompilerResultsLog: Creating makefile for BattleTank_04Editor (ini files are newer than makefile)
+[2019.08.22-02.04.14:710][201]CompilerResultsLog: Parsing headers for BattleTank_04Editor
+[2019.08.22-02.04.14:710][201]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\BattleTank_04.uproject" "C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\BattleTank_04Editor\Development\BattleTank_04Editor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.22-02.04.14:710][201]CompilerResultsLog: Reflection code generated for BattleTank_04Editor in 5,6769316 seconds
+[2019.08.22-02.04.14:710][201]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.22-02.04.14:711][201]CompilerResultsLog: Building 7 actions with 8 processes...
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   [1/7] BattleTank_04.init.gen.cpp
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   [2/7] TankBarrel.cpp
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   [3/7] TankBarrel.gen.cpp
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   [4/7] TankAimingComponent.cpp
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(65): warning C4456: declaration of 'AimDirection' hides previous local declaration
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Source\BattleTank_04\Private\TankAimingComponent.cpp(51): note: see declaration of 'AimDirection'
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:   [5/7] UE4Editor-BattleTank_04-9282.lib
+[2019.08.22-02.04.14:711][201]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-9282.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-9282.exp
+[2019.08.22-02.04.14:712][201]CompilerResultsLog:   [6/7] UE4Editor-BattleTank_04-9282.dll
+[2019.08.22-02.04.14:712][201]CompilerResultsLog:      Creating library C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-9282.suppressed.lib and object C:\Users\Pollo Wagan\Documents\casual project unreal\Battle_Tank\Battle_Tank\BattleTank_04\Intermediate\Build\Win64\UE4Editor\Development\BattleTank_04\UE4Editor-BattleTank_04-9282.suppressed.exp
+[2019.08.22-02.04.14:712][201]CompilerResultsLog:   [7/7] BattleTank_04Editor.target
+[2019.08.22-02.04.14:712][201]CompilerResultsLog: Total time in Parallel executor: 1,79 seconds
+[2019.08.22-02.04.14:712][201]CompilerResultsLog: Total execution time: 9,41 seconds
+[2019.08.22-02.04.14:713][201]LogMainFrame: MainFrame: Module compiling took 9.532 seconds
+[2019.08.22-02.04.14:741][201]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2019.08.22-02.04.14:742][201]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (unloaded)
+[2019.08.22-02.04.14:767][201]LogClass: Could not find existing class TankBarrel in package /Script/BattleTank_04 for HotReload, assuming new class
+[2019.08.22-02.04.14:776][201]LogHotReload: Re-instancing TankBarrel after hot-reload.
+[2019.08.22-02.04.14:888][201]LogBlueprintActionDatabase: Requesting refresh due to module change: BattleTank_04 (loaded)
+[2019.08.22-02.04.14:890][201]LogContentBrowser: Native class hierarchy updated for 'BattleTank_04' in 0.0003 seconds. Added 7 classes and 3 folders.
+[2019.08.22-02.04.14:894][201]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.08.22-02.04.15:024][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2019.08.22-02.04.15:025][201]LogBlueprintActionDatabase: Requesting refresh due to hot reload
+[2019.08.22-02.04.15:034][201]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2740 classes and 664 folders.
+[2019.08.22-02.04.15:043][201]Display: HotReload took  9.9s.
