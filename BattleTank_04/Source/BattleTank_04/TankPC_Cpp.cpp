@@ -2,6 +2,7 @@
 
 
 #include "TankPC_Cpp.h"
+#include "Tank.h"
 #include "Engine/World.h"
 
 ATankPC_Cpp::ATankPC_Cpp()
