@@ -87,5 +87,5 @@ void UTankAimingComponent::MoveBarrelTowards(FVector AimDirection)
 
 		//take aimdirection
 		//set barrel rotation
-		Barrel->Elevate(5); //TODO remove magic number
+		Barrel->Elevate(DeltaRotator.Pitch); //TODO remove magic number
 }
